@@ -20,7 +20,16 @@ module.exports = {
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       // See the theme's README for all available options
-      options: {},
+      options: {
+        name: `KR - Kevin Requiena`,
+        location: `Brasil`,
+        socialMedia: [
+          {
+            title: `Instagram`,
+            href: `https://www.instagram.com/kevinrequiena`
+          }
+        ]
+      },
     },
     `gatsby-plugin-sitemap`,
     {
